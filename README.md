@@ -7,6 +7,8 @@ Example of usage:
 ```js
 import {isEmailList} from 'is-email-list'
 
-isEmailList('a@a.com, b@b.com, aaa').toString() // false
-isEmailList('a@a.com, b@b.com').toString() // true
+isEmailList('a@a.com, b@b.com, aaa') // false
+isEmailList('a@a.com, b@b.com') // true
 ```
+
+If you have any idea, how to improve this package, please raise an issue. Happy coding :)
